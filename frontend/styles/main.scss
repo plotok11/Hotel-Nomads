@@ -1,0 +1,278 @@
+body{
+    background-color: white;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+
+}
+
+// Navbar
+
+.navbar-brand{
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: #071C4D;
+
+                &.active{
+                    font-weight: bold !important;
+                }
+            }
+        }
+    }
+} 
+
+.btn-login{
+    background-color: #071C4D;
+    color: #ffff;
+
+    &:hover{
+        background-color: #0f358f;
+        color: rgb(218, 212, 212);
+    }
+}
+
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    width: 130px;
+
+    border-radius: 0;
+}
+
+// Header
+
+header{
+    padding-top: 180px;
+    padding-bottom: 165px;
+    margin-top: -70px;
+
+    background-image: url('../images/Mask\ Group\ 1.png');
+    background-size: cover;
+
+    h1, p{
+        color: #ffff;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        font-size: 20px;
+        color: #ffff;
+        background-color: #FF9E53;
+
+        &:hover{
+            background-color: #ec802d;
+            color: #ffff;
+        }
+    }
+}
+
+// Stats
+
+.section-stats{
+    margin-top: -45px;
+    
+    .stats-detail{
+        background-color: #ffff;
+        padding-top: 15px;
+        padding-left: 40px;
+
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+// Section popular
+.section-popular{
+    background-color: #051334;
+    color: white;
+    min-height: 540px;
+    margin-top: -60px;
+    margin-bottom: -230px;
+
+    .section-popular-heading{
+        margin-top: 150px;
+
+        h2, p{
+            font-family:'Playfair Display';
+        }
+
+        h2{
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p{
+            font-weight:normal;
+            font-size: 18px;
+        }
+    }
+}
+
+// Section-konten-popular
+.section-konten-popular{
+    .section-travel-popular{
+        .card-travel{
+            min-height: 380px;
+            background-color: white;
+            color: white;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+
+            .travel-country{
+                font-size: 18px;
+                font-family: 'Assistant';
+                font-weight: normal;
+            }
+
+            .travel-location{
+                font-size: 26px;
+                font-family: 'Assistant';
+                
+            }
+
+            .travel-button{
+                .btn-travel-details{
+                    background-color: #FF9E53;
+                    color: white;
+                    
+                    &:hover{
+                        background-color: #d16e22;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Sections Our Networks
+.section-networks{
+    background-color: white;
+    padding-top: 273px;
+    padding-bottom: 99px;
+    margin-top: -170px;
+
+    h2{
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-family: 'Assistant';
+        font-size: 18px;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
+
+// Section Testimonial
+.section-testimoni-heading{
+    min-height: 506px;
+
+    h2{
+        font-family:'Playfair Display';
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-family: 'Assistant';
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial{
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+
+        .testimonial-content{
+            min-height: 380px;
+
+            h3{
+                font-family: 'Assistant';
+                font-size: 22px;
+                color: #071C4D;
+            }
+            
+            .testimonial{
+                font-family: 'Assistant';
+                font-size: 26px;
+                font-weight: lighter;
+                color: #6E6E6E;
+                min-height: 160px;
+            }
+
+            .trip-to{
+                font-weight: normal;
+                font-family: 'Assistant';
+                font-size: 22px;
+                color: #6E6E6E;
+            }
+
+            hr{
+                margin-left: -20px;
+                margin-right: -20px;
+            }
+        }
+    }
+
+    .btn-need-help{
+        background-color: #cfcbcb;
+        color: #ffffff;
+
+        &:hover{
+            background-color: #dad8d8;
+            color: #ffffff;
+        }
+    }
+
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: white;
+
+        &:hover{
+            background-color: #da8341;
+            color: white;
+        }
+    }
+
+}
+
+.section-footer{
+    a{
+        color: #071C4D;
+    }
+}
